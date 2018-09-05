@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Eduroam WiFi Map</title>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <!--css-->
+    <style>
+        #map {
+            height: 90%;
+        }
+        
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+    <!--END OF CSS-->
+</head>
+
+<body>
+    <h1>Eduroam Wifi-Mapper</h1>
+    <div id="map"></div>
+    <!--To be linked to report-->
+    <a href="#">View Report </a>
+    <!--Links to javascript file + google api-->
+    <script src="webinterface.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCgeLYjVPbJJdc9kW3XCGBBCQCsA5yvCPk&callback=initMap" async defer></script>
+
+    <!--END OF JAVASCRIPT-->
+</body>
+
+</html>
